@@ -1,1 +1,8 @@
-
+{
+  "users": [
+    { "id": 1, "name": "John", "email": "john@example.com" }
+  ],
+  "posts": [
+    { "id": 1, "title": "Hello World" }
+  ]
+}
