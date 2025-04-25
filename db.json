@@ -1,8 +1,56 @@
 {
-  "users": [
-    { "id": 1, "name": "John", "email": "john@example.com" }
+  "categories": [
+    { "id": 1, "name": "Appetizers" },
+    { "id": 2, "name": "Main Course" },
+    { "id": 3, "name": "Desserts" },
+    { "id": 4, "name": "Drinks" }
   ],
-  "posts": [
-    { "id": 1, "title": "Hello World" }
+  "items": [
+    { "id": 1, "name": "Spring Rolls", "categoryId": 1, "price": 5.99 },
+    { "id": 2, "name": "Chicken Wings", "categoryId": 1, "price": 8.99 },
+    { "id": 3, "name": "Burger", "categoryId": 2, "price": 12.99 },
+    { "id": 4, "name": "Pizza", "categoryId": 2, "price": 15.99 },
+    { "id": 5, "name": "Chocolate Cake", "categoryId": 3, "price": 6.99 },
+    { "id": 6, "name": "Ice Cream", "categoryId": 3, "price": 4.99 },
+    { "id": 7, "name": "Soda", "categoryId": 4, "price": 2.99 },
+    { "id": 8, "name": "Lemonade", "categoryId": 4, "price": 3.99 }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "customerName": "John Doe",
+      "items": [
+        { "itemId": 1, "quantity": 2 },
+        { "itemId": 3, "quantity": 1 }
+      ],
+      "totalPrice": 22.97,
+      "status": "Completed"
+    },
+    {
+      "id": 2,
+      "customerName": "Jane Smith",
+      "items": [
+        { "itemId": 4, "quantity": 1 },
+        { "itemId": 5, "quantity": 3 }
+      ],
+      "totalPrice": 42.96,
+      "status": "Pending"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin User",
+      "email": "admin@example.com",
+      "password": "password",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Customer User",
+      "email": "customer@example.com",
+      "password": "password",
+      "role": "customer"
+    }
   ]
 }
