@@ -43,14 +43,16 @@
       "name": "Admin User",
       "email": "admin@example.com",
       "password": "password",
-      "role": "admin"
+      "role": "admin",
+      "adminToken": "admin-fake-token"
     },
     {
       "id": 2,
       "name": "Customer User",
       "email": "customer@example.com",
       "password": "password",
-      "role": "customer"
+      "role": "customer",
+      "customerToken": "customer-fake-token"
     }
   ]
 }
