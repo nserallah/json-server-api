@@ -13,7 +13,15 @@
     { "id": 5, "name": "Chocolate Cake", "categoryId": 3, "price": 6.99 },
     { "id": 6, "name": "Ice Cream", "categoryId": 3, "price": 4.99 },
     { "id": 7, "name": "Soda", "categoryId": 4, "price": 2.99 },
-    { "id": 8, "name": "Lemonade", "categoryId": 4, "price": 3.99 }
+    { "id": 8, "name": "Lemonade", "categoryId": 4, "price": 3.99 },
+    { "id": 9, "name": "Spring Rolls 1", "categoryId": 1, "price": 5.99 },
+    { "id": 10, "name": "Chicken Wings 2", "categoryId": 1, "price": 8.99 },
+    { "id": 11, "name": "Burger 3", "categoryId": 2, "price": 12.99 },
+    { "id": 12, "name": "Pizza 4", "categoryId": 2, "price": 15.99 },
+    { "id": 13, "name": "Chocolate Cake 5", "categoryId": 3, "price": 6.99 },
+    { "id": 14, "name": "Ice Cream 6", "categoryId": 3, "price": 4.99 },
+    { "id": 15, "name": "Soda 7", "categoryId": 4, "price": 2.99 },
+    { "id": 16, "name": "Lemonade 8", "categoryId": 4, "price": 3.99 }
   ],
   "orders": [
     {
